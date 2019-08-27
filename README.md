@@ -1,2 +1,0 @@
-# nikitabashenko.github.io
-trash

@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<title>Ремонт техники в Киеве</title>
+<style>
+	
+	*{
+		padding: 0;
+		margin: 0;
+		font-family: 'Open Sans',Arial,sans-serif;
+	}
+	body{
+				font-family: 'Open Sans',Arial,sans-serif;
+				background: #242d34;
+	}
+	a{
+		text-decoration: none;
+
+	}
+	.fa{
+		font-size: 16px;
+		font-weight: 500;	color: white ;
+	}
+	.blackline{
+		padding-top: 15px;
+		padding-bottom: 15px;
+		background: #242d34;
+		color: white ;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.socialmedia{
+		justify-self: end;
+		padding-right: 25%;
+		
+	}
+	.fff:hover{
+		color: #009cff !important;
+	}
+	.fa-home{
+		padding-right: 10px;
+	}
+	.fa-instagram{
+		border-right: 2px solid grey;
+		padding-right: 10px;
+		margin-right: 5px;
+	}
+	.mesto{
+		justify-self: start;
+		padding-left: 25%;
+		font-size: 15px;
+		font-weight: 500;
+		display: flex;
+  align-items:  center;
+
+
+	}
+	
+	
+#header{
+	width: 100%;
+
+	position: absolute;
+	color: black;
+	border-bottom: 2px solid grey;
+}
+.logo{
+display: flex;
+  align-self:  center;
+
+
+	width: 200px;
+	grid: logo;
+
+}
+.contenthead{
+	display: grid;
+	
+}
+#bgheader{
+	width: 100%;
+	height: 100%;
+	background:black; 
+	opacity: 0.2;
+	position: absolute;
+	z-index: -1;
+}
+.contentheader{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	padding-right: 13%;
+	padding-left:13%;
+	color: white;
+}
+.phoneandtime{
+	width: 70%;
+	justify-self: end;
+	display: grid;
+	justify-items: end;
+	grid-template-columns: 1fr 1fr;
+}
+.otherpage{
+	justify-self: end;
+	width: 60%;
+	display: grid;
+	
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.hhh{
+	padding-top: 10px;
+	display: grid;
+
+	grid-template-columns: 1fr 3fr;
+	justify-items: center;
+	align-items: center;
+}
+.otherpage{
+text-align: center;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+.fa{
+	font-size: 25px;
+
+}
+.p1{
+	color: white !important;
+
+}
+.p1:hover{
+		color: #009cff  !important;
+
+}
+.head1{
+	padding-bottom: 5px;
+}
+.pnvs{
+	text-align: center;
+}
+.othera{
+	text-align: center;
+	position: relative;
+		color: white ;
+		font-size: 25px;
+		text-shadow: 0.5px 0.5px 0.5px rgba(255,255,255,.3);
+	}
+	.othera:hover{
+		color: #009cff ;
+		text-shadow: 0.5px 0.5px 0.5px rgb(0, 156, 255,.3);
+	}
+	.fff{
+
+	}
+	.qqq{
+		padding-right: 15px;
+	}
+
+.icon{
+	display: none;
+	grid-area: icon ;
+}
+
+@media (max-width:1050px) {
+.contentheader{
+	padding-right: 7.5%;
+	padding-left:7.5%;
+}
+.socialmedia{
+		padding-right: 12.5%;
+		
+	}
+	.mesto{
+		padding-left: 12.5%;
+	}
+}
+@media (max-width:950px) {
+.otherpage{
+	width: 80%;
+	
+}
+}
+@media (max-width:850px) {
+.blackline{
+	
+		grid-template-columns: 1fr auto ;
+		padding-right: 7.5%;
+		padding-left: 7.5%;
+	}
+	.socialmedia{
+		padding-right: 0%;
+		
+	}
+	.contentheader{
+		grid-template-areas: " logo icon"
+		"contenthead contenthead"
+		;
+	}
+	.phoneandtime{
+		justify-items: center;
+		width: 100%;
+	}
+	.otherpage {
+    width: 100%;
+}
+	.mesto{
+		padding-left: 0%;
+	}
+	.logo{
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.icon{
+		display: block;
+		color: white;
+		justify-self: end;
+		align-self: center;
+		font-size: 30px;
+	}
+	.icon:hover{
+		color: #009cff ;
+	}
+	.contenthead{
+		display: none;
+		grid-area: contenthead;
+	}
+
+}
+@media (max-width:400px) {
+
+.contentheader {
+    padding-right: 1%;
+    padding-left:1%;
+}
+.qqq{
+	padding-right: 0px;
+}
+
+}
+
+@media(max-width: 350px){
+	.hhh{
+	grid-template-columns: 1fr 5fr;
+}
+}
+
+
+
+	.mainslowa{
+		display: grid;
+		grid-template-columns: 1fr ;
+		grid-template-rows: 100px 200px;
+		margin-top: 280px;
+		margin-bottom: 100px;
+		text-align: center;
+		color: white;
+		text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+		font-weight: 600;
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+	.maintop{
+		font-size: 60px;
+
+	}
+	.mainbot{
+		font-size: 35px;
+		
+	}
+	.blockispred{
+		width: 100%;
+		background: white;
+	}
+
+
+
+.startimg{
+		width: 100%;
+		top: -25%;
+		position:  absolute;
+		z-index: -3;
+	}
+@media(max-width: 1350px){
+.startimg{
+		width: 100%;
+		top: -15%;
+		position:  fixed;
+		z-index: -3;
+	}
+}
+@media(max-width: 1250px){
+.startimg{
+		width: 100%;
+		top: 0;
+		position:  fixed;
+		z-index: -3;
+	}
+}
+@media(max-width: 1100px){
+.startimg{
+		width: 150%;
+		left: -25%;
+		top: -30%;
+		position:  fixed;
+		z-index: -3;
+	}
+	.mainslowa{
+		display: grid;
+		grid-template-columns: 1fr ;
+		grid-template-rows: 100px 200px;
+		margin-top: 200px;
+		margin-bottom: 50px;
+		text-align: center;
+		color: white;
+		text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+		font-weight: 600;
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+	.maintop{
+		font-size: 55px;
+
+	}
+	.mainbot{
+		font-size: 30px;
+		
+	}
+}
+@media(max-width: 1000px){
+.startimg{
+		width: 150%;
+		left: -25%;
+		top: -30%;
+		position:  fixed;
+		z-index: -3;
+	}
+	.mainslowa{
+		display: grid;
+		grid-template-columns: 1fr ;
+		grid-template-rows: 100px 100px;
+		margin-top: 150px;
+		margin-bottom: 50px;
+		text-align: center;
+		color: white;
+		text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+		font-weight: 600;
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+	.maintop{
+		font-size: 45px;
+
+	}
+	.mainbot{
+		font-size: 25px;
+		
+	}
+}
+@media(max-width: 850px){
+.startimg{
+		width: 150%;
+		left: -25%;
+		top: -0%;
+		position:  fixed;
+		z-index: -3;
+	}
+	.mainslowa{
+		display: grid;
+		grid-template-columns: 1fr ;
+		grid-template-rows: 130px 100px;
+		margin-top: 100px;
+		margin-bottom: 30px;
+		text-align: center;
+		color: white;
+		text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+		font-weight: 600;
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+	.maintop{
+		font-size: 45px;
+
+	}
+	.mainbot{
+		font-size: 20px;
+		
+	}
+}
+
+@media(max-width: 500px){
+.startimg{
+		width: 200%;
+		left: -35%;
+		top: -0%;
+		position:  fixed;
+		z-index: -3;
+	}
+	.mainslowa{
+		display: grid;
+		grid-template-columns: 1fr ;
+		grid-template-rows: 100px 100px;
+		margin-top: 100px;
+		margin-bottom: 30px;
+		text-align: center;
+		color: white;
+		text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+		font-weight: 600;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.maintop{
+		font-size: 35px;
+
+	}
+	.mainbot{
+		font-size: 18px;
+		
+	}
+}
+
+@media(max-width: 750px){
+.startimg{
+		width: 200%;
+		left: -35%;
+		top: -0%;
+		position: fixed;
+		z-index: -3;
+	}
+}
+</style>
+</head>
+<body>
+			<section class="mainsection">
+		<div class="blackline" id="blackline">
+			<div class="mesto"><i class="fa fa-home"></i><div>Б-р Вацлава Гавела, 10</div></div>
+			<div class="socialmedia"><a target="_blank" href="https://www.instagram.com/rs_service.kiev/"><i class="fa fa-instagram fff"></i><a target="_blank" href="https://www.facebook.com/groups/rs.service.kiev/"> <i class="fa fa-facebook fff"></i></a></div>
+		</div>
+		<div id="header"><div id="bgheader"></div>
+        <div class="contentheader">
+        	<img class="logo" src="img/rs-servicelogo.png" alt="">
+        		  <a href="#" id="menu" class="icon">&#9776;</a>
+        	<div class="contenthead" id="contenthead">
+        	
+        		<div class="phoneandtime">
+
+        			<div class="phone hhh">
+        				<i class="fa fa-phone qqq"></i>
+        				<div class="hhhhh">
+        					<div class="head1">
+        					<a class="p1" dir="ltr" href="tel:0964348487">0964348487</a>
+        				</div>
+        				<div class="head2 ">
+        					<a class="p1" dir="ltr" href="tel:0632637232">0632637232</a>
+        				</div>
+        			</div>
+</div>
+        		<div class="time hhh">
+        			<i class="fa fa-clock-o qqq"></i>
+        			<div class="hhhhh"><div class="head1 pnvs">пн-вс</div>
+        			<div class="head2">с 10:00 до 19:00</div></div></i>
+</div>
+        	</div>
+        		<div class="otherpage">
+        			<a class="othera" href="#">Главная</a>
+        			<a class="othera" href="#">Услуги</a>
+        			<a class="othera" href="#">Контакты</a>
+        		</div>
+        	</div>
+        </div>
+		</div>
+
+		<div id="mainwords" class="mainslowa">
+			<div class="maintop">Компьютерная помощь в Киеве</div>
+			<div class="mainbot">Вы получите бесплатную диагностику, качественный ремонт Вашей техники, а так же консультацию опытных специалистов.</div>
+		</div>
+		<div>
+			<img class="startimg" src="img/slide-2-1.jpg" alt="">
+		</div>
+	</section>
+<script>
+var xxx =0 ;
+menu.onclick = function myFunction() {
+var x = document.getElementById('contenthead');
+var xx = document.getElementById('mainwords');
+if(xxx%2==0){
+x.style.cssText="display:block";
+xx.style.cssText="margin-top:200px"
+xxx++;
+}
+else{
+x.style.cssText="display:none";
+xx.style.cssText="margin-top:100px"
+xxx++;
+}
+}
+
+
+	var f=function(){
+var event = function(e){
+	var blackline = document.getElementById('blackline');
+	var header = document.getElementById('header');
+	var bg = document.getElementById('bgheader');
+	var y =window.scrollY;
+	if(y>50){
+		header.style.cssText = 'position:fixed; top:0px; ';
+		bg.style.cssText='opacity:0.7;';
+		blackline.style.cssText='visibility: hidden;';
+	}
+	if(y<50){
+		header.style.cssText = 'position:absolute; ';
+		bg.style.cssText='opacity:0.2;';
+		blackline.style.cssText='visibility: visible;';
+	}
+}
+
+window.addEventListener('scroll',event,false);
+	}
+
+	document.addEventListener('DOMContentLoaded',f,false);
+	</script>
+</body>
+</html>
