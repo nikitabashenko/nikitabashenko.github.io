@@ -5,6 +5,7 @@
 	}
 body{
 	font-family: 'Open Sans', sans-serif;
+	background: white;
 }
 
 
@@ -426,7 +427,7 @@ text-align: center;
 .mainwords{padding-top: 25px;
 	text-align: center;
 	color: #0096fc;
-	font-size: 30px;
+	font-size: 35px;
 }
 
 .mainmain{
@@ -537,7 +538,7 @@ padding-bottom: 50px;
 	
 .yslygimainwords{
 	text-align: center;
-	font-size: 30px;
+	font-size: 35px;
 	color: #0096fc;
 	padding-top: 35px;
 	padding-bottom: 35px;
@@ -578,7 +579,9 @@ background: white;
 	font-size: 18px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	color: black;
+	font-weight: 500;
+	color: #121212;
+
 }
 .yslygi{
 	background: #e6e6e6;
@@ -645,7 +648,7 @@ background: white;
 }
 .ourworkname{
  text-align: center;
-	font-size: 30px;
+	font-size: 35px;
 	color: #0096fc;
 	padding-top: 35px;
 	padding-bottom: 35px;
