@@ -685,3 +685,435 @@ background: white;
 }
 }
 /* end photo */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css from pages */
+
+
+
+
+
+
+
+	.services{
+ 		padding-bottom: 50px;
+ 	}
+.servicesmainwords{
+		
+		text-align: center;
+    font-size: 35px;
+    color: #0096fc;
+    padding-top: 55px;
+    padding-bottom: 25px;
+	}
+
+ 	.logocellsss{
+ 		text-align: center;
+ 		font-size: 27px;
+ 		color: #0096fc;
+ 		border-bottom: 1.4px solid #0096fc;
+ 		margin-right: 25.5%;
+margin-left: 25.5%;padding-bottom: 10px;
+margin-bottom: 15px;
+
+ 	}
+.cellka{
+	display: grid;
+	grid-template-columns: 5fr 1fr;
+	align-items: center;
+margin-right: 10.5%;
+margin-left: 10.5%;
+padding-left: 2%;
+padding-right: 2%;
+font-size: 18px;
+font-weight: 600;
+padding-top: 12px;
+padding-bottom: 10px;
+}
+.costcelka{
+	justify-self: center;
+}
+.underlinecell{
+
+
+
+border-bottom: 1.4px solid black;
+}
+
+
+.contentservicepage{
+display: grid;
+grid-template-columns: 2fr 3fr;
+padding-top: 20px;
+padding-bottom: 40px;
+padding-right: 12.5%;
+padding-left: 12.5%;
+justify-items: center;
+align-items: center;
+grid-template-areas: 
+"imggg textgg"
+"buttongg buttongg";
+}
+.imggg{
+	width: 75%;
+	border-radius: 15px;
+	justify-self: center;
+	grid-area: imggg;
+}
+.buttoncon{
+margin-top: 30px;
+justify-self: center;
+	background-color: #007bff;
+	color: white;
+	align-self: center;
+	width: 200px;
+	font-size: 23px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border-radius: 10px;
+	grid-area: buttongg;
+
+}
+.buttoncon:hover{
+	background-color: #0069d9;
+}
+.buttoncon:focus{
+box-shadow: 0 0 0 0.2rem rgba(0,123,255,.5);
+
+}
+.textfromccc{
+
+font-size: 18px;
+grid-area: textgg;
+}
+@media screen and (max-width: 960px) {
+
+.contentservicepage{
+	grid-template-areas: 
+	"imggg imggg" 
+	 "textgg textgg"
+"buttongg buttongg"
+
+}
+.imggg{
+	width: 55%;
+	margin-bottom: 30px;
+}
+.servicesmainwords{
+	padding-bottom: 15px;
+}
+}
+
+
+.cellka{
+	display: grid;
+	grid-template-columns: 5fr 1fr;
+	align-items: center;
+margin-right: 10.5%;
+margin-left: 10.5%;
+padding-left: 2%;
+padding-right: 2%;
+font-size: 18px;
+font-weight: 600;
+padding-top: 12px;
+padding-bottom: 10px;
+}
+
+@media screen and (max-width:775px) {
+.cellka{
+	display: grid;
+	grid-template-columns: 5fr 2.6fr;
+	align-items: center;
+margin-right: 5.5%;
+margin-left: 5.5%;
+padding-left: 2%;
+padding-right: 2%;
+font-size: 16px;
+font-weight: 600;
+padding-top: 12px;
+padding-bottom: 10px;
+}
+}
+
+@media screen and (max-width:600px) {
+	.imggg{
+	width: 75%;
+	margin-bottom: 30px;
+}
+}
+
+
+/* end  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* services */
+
+
+
+
+
+.servicesmainwords{
+		
+		text-align: center;
+    font-size: 35px;
+    color: #0096fc;
+    padding-top: 55px;
+    padding-bottom: 25px;
+	}
+	.cellyslygi{
+		display: grid;
+		grid-template-columns: 30% 70%;
+		margin-left: 12%;
+		margin-right: 12%;
+		opacity: 0.9;
+		color: black;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 15px;
+border: 1px solid white;
+	}
+	.cellyslygi:hover{
+	background: #e6e6e6;
+		opacity: 1;
+		border: 1px solid #0096fc;
+
+}
+	.imgfromyslygi{
+		width: 80%;
+		justify-self: center;
+		align-self: center;
+		border-radius: 15px;
+	}
+	.yslygicells{
+		display: grid;
+		grid-row-gap: 20px;
+	}
+
+.logoyslygi{
+	font-size: 22px;
+	padding-top: 12px;
+	padding-bottom: 10px;
+}
+.textyslygi{
+	font-size: 17px;
+}
+
+.services{
+	padding-bottom: 40px;
+}
+
+
+
+
+@media screen and (max-width: 1320px) {
+	.cellyslygi{
+		
+		margin-left: 6%;
+		margin-right: 6%;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 8px;
+padding-right:8px;
+
+	}
+}
+
+@media screen and (max-width: 1150px) {
+	.yslygicells{
+		grid-template-columns: 1fr 1fr;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.cellyslygi{
+		padding-top: 15px;
+padding-bottom: 20px;
+padding-left: 28px;
+padding-right:28px;
+		letter-spacing: 0.4px;
+grid-template-columns: 1fr ;
+	}
+
+.logoyslygi{
+	text-align: center;
+	font-size: 22px;
+	padding-top: 12px;
+	padding-bottom: 10px;
+}
+}
+@media screen and (max-width: 800px) {
+	.yslygicells{
+		grid-template-columns: 1fr;
+	}
+
+	.textyslygi{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+}
+@media screen and (max-width: 600px) {
+	.yslygicells{
+		grid-template-columns: 1fr;
+	}
+
+	.textyslygi{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+}
+
+
+
+/* end */
+
+
+
+
+
+/* контакты */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contssilki{
+	display: grid;
+	justify-items: center;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+#map{
+	padding-top: 1rem;
+}
+.gegegege{
+	display: grid;
+	grid-row-gap: 5px;
+
+}
+.gegegege a{
+
+	color: #2b2b2b;
+	font-size: 18px;
+}
+.gegegege a:hover{
+
+	color: #0069d9;
+}
+.logocontssilki{
+font-size: 30px;
+}
+.podcontacti{
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+.pathlay{
+	margin-top: 30px;
+justify-self: center;
+	background-color: #007bff;
+	color: white !important;
+	align-self: center;
+	width: 200px;
+	font-size: 23px !important;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border-radius: 10px;
+margin-bottom: 35px;}
+
+.pathlay:hover{
+	background-color: #0069d9;
+}
+.pathlay:focus{
+box-shadow: 0 0 0 0.2rem rgba(0,123,255,.5);
+
+}
+.qwerty{
+	grid-template-rows: 40px 68px 1fr;
+}
+.gegege{
+	display: grid;
+	grid-template-rows: 45px 30px 40px;
+	font-size: 
+}
+.vizthoutwe{
+	font-size: 18px;
+}
+@media screen and (max-width: 930px){
+	.contssilki{
+
+	grid-template-columns:  1fr;
+justify-items: start;
+grid-row-gap: 25px;
+padding-left: 12%; 
+}
+}
+
+
+
+
+
+
+/* конец контакто */
+
+
+
+
+
+
+
+
+
+
+
